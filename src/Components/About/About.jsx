@@ -15,8 +15,11 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I'm a passionate developer with experience in building dynamic and responsive web applications using React.js and Node.js. I enjoy solving complex problems and turning ideas into reality with clean and efficient code.
-            </p>            
+              I'm a passionate developer with experience in building dynamic and
+              responsive web applications using React.js and Node.js. I enjoy
+              solving complex problems and turning ideas into reality with clean
+              and efficient code.
+            </p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
@@ -40,7 +43,7 @@ const About = () => {
               <hr style={{ width: '50%' }} />
             </div>
             <div className="about-skill">
-              <p>MongoDb</p>
+              <p>MongoDB</p>
               <hr style={{ width: '50%' }} />
             </div>
           </div>
