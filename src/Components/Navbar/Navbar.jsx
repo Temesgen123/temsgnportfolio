@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#about">
-            <p onClick={() => setMenu('about')}>About me</p>
+            <p onClick={() => setMenu('about')}>About</p>
           </AnchorLink>
           {menu === 'about' ? <hr /> : <></>}
         </li>
@@ -52,11 +52,11 @@ const Navbar = () => {
           {menu === 'contact' ? <hr /> : <></>}
         </li>
       </ul>
-      <div className="nav-connect">
+      {/* <div className="nav-connect">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
           <p onClick={() => setMenu('contact')}>Contact me</p>
         </AnchorLink>
-      </div>
+      </div> */}
     </div>
   );
 };
