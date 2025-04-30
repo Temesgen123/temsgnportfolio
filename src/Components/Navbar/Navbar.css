@@ -50,7 +50,10 @@
 }
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 10px;
+  }
+  .logoImage {
+    margin: 0px -1px;
   }
   .nav-connect {
     display: none;

@@ -61,9 +61,9 @@
 }
 @media(max-width:768px){
   .mywork{
-    gap: 25px;
-    margin: 25px 70px;
+    gap: 25px;   
     align-items: start;  
+    margin: 25px 70px;
   }
   .mywork-title h1 {
     padding: 0px;
