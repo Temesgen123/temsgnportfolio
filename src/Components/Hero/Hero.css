@@ -1,12 +1,12 @@
-.hero {  
+.hero {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 25px;  
+  gap: 25px;
   margin: 80px 170px;
 }
 .hero img {
-  margin-top: 64px;
+  margin-top: 50px;
 }
 .hero h1 {
   text-align: center;
@@ -55,14 +55,13 @@
   background-color: #fff;
   color: #0f0232;
 }
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .hero {
     margin: 50px 5px;
-    background-color: red;
   }
   .hero img {
     margin-top: 36px;
-    width: 260px;
+    width: 50%;
   }
   .hero h1 {
     margin-top: 36px;
