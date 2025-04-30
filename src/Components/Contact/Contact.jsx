@@ -54,7 +54,7 @@ const Contact = () => {
         <form onSubmit={onSubmit} className="contact-right">
           <label>Your Name:</label>
           <input type="text" placeholder="Enter your name." name="name" />
-          <label>Your Email</label>
+          <label>Your Email:</label>
           <input type="email" placeholder="Enter your email." name="email" />
           <label>Write your message here.</label>
           <textarea
