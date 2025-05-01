@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;  
+  margin: 80px 170px;
 }
 .contact_title {
   position: relative;
@@ -110,7 +110,7 @@
     padding: 0px;
     font-size: 50px;
     font-weight: 600;
-  }  
+  }
   .contact-section {
     flex-direction: column;
     gap: 80px;
@@ -139,7 +139,7 @@
     font-size: 20px;
   }
   .contact-right textarea {
-    width: 90%;
+    width: 80%;
     font-size: 20px;
   }
   .contact-submit {
