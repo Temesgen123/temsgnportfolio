@@ -78,7 +78,7 @@
   .mywork {
     gap: 25px;
     align-items: start;
-    margin: 50px 25px;
+    margin: 50px 25px;    
   }
   .mywork-title h1 {
     padding: 0px;
@@ -89,7 +89,7 @@
     /* grid-template-columns: 1f 1f;     */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px;    
   }
   .mywork-container img {
     max-width: 100%;
@@ -111,7 +111,8 @@
   .mywork-showmore {
     padding: 6px 24px;
     font-size: 18px;
-    margin: 25px auto;
+    margin: 1px auto;
     cursor: pointer;
+    margin-bottom: 50px;
   }
 }

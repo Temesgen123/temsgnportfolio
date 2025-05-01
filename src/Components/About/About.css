@@ -106,21 +106,29 @@
   .about-skill hr {
     height: 6px;
   }
-  .related-technologies {
+  /* .related-technologies {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12;
-  }
+    background-color: red;
+  } */
+   .related-technologies {
+    max-width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+
+   }
   .related-technologies hr {
     display: none;
   }
   .technology {
     gap: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   .technology h3 {
     font-size: 18px;
-    font-weight: 500;    
+    font-weight: 500; 
+    text-decoration: underline;   
   }
   .technology p {
     font-size: 16px;

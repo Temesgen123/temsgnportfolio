@@ -61,11 +61,7 @@ const About = () => {
           <p>SQL Server</p>
           <p>MySQL</p>
         </div>
-        <hr />
-        <div className="technology">
-          <h3>Cloud Computing</h3>
-          <p>AWS</p>
-        </div>
+        <hr />        
         <hr />
         <div className="technology">
           <h3>Version Control</h3>
