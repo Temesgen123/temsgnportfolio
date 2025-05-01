@@ -18,7 +18,7 @@ const MyWork = () => {
               <div className="project-description">
                 <h2>
                   {}
-                  {work.w_no}.{work.w_name}
+                 <span> {work.w_no}</span>.<span className='w-desc-name'>{work.w_name}</span>
                 </h2>
                 <p>{work.w_dsc}</p>
                 <div>
