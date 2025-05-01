@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 50px 50px;
 }
 .mywork-title h1 {
   font-size: 50px;
@@ -17,7 +17,7 @@
   gap: 32px;
 }
 .mywork-container img {
-  max-width: 30%;
+  max-width: 50%;
   height: auto; 
   object-fit: contain; 
   padding: 5px;
