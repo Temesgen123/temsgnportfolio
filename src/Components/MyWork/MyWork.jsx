@@ -16,10 +16,10 @@ const MyWork = () => {
               <img key={index} src={work.w_image} alt="" />
 
               <div className="project-description">
-                <h2>
+                <h3>
                   {}
                  <span> {work.w_no}</span>.<span className='w-desc-name'>{work.w_name}</span>
-                </h2>
+                </h3>
                 <p>{work.w_dsc}</p>
                 <div>
                   <a href={work.w_url}>Veiw Project Details</a>

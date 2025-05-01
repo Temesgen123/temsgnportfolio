@@ -8,7 +8,6 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-
     formData.append('access_key', '5e10a750-75f9-4341-adc5-c7b7483b5d64');
 
     const object = Object.fromEntries(formData);
@@ -30,18 +29,18 @@ const Contact = () => {
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
-        <h1>Contact</h1>
-        <img src="" alt="" />
+        <h1>Contact</h1>        
       </div>
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's Connect</h1>
           <p>
-            I am currently open to exciting projects or collaborations. Feel free to contact me.
+            I am currently open to exciting projects or collaborations. Feel
+            free to contact me.
           </p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img src={MailIcon}  alt="" /> <p>birechis@gmail.com</p>
+              <img src={MailIcon} alt="" /> <p>birechis@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={Telephone} alt="" /> <p>251-943946168</p>

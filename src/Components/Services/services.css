@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin: 80px 170px;  
+  margin: 80px 170px;
 }
 .services-title h1 {
   padding: 30px;
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  padding:60px;
+  padding: 60px;
   border-radius: 10px;
   border: 2px solid white;
   transition: 0.4s;
@@ -29,7 +29,7 @@
   margin-bottom: 80px;
 }
 .services-format:hover {
-  border: 2px solid rgb(54, 5, 232);  
+  border: 2px solid rgb(54, 5, 232);
   transform: scale(1.05);
   transition: 0.4s;
 }
@@ -42,10 +42,10 @@
   font-weight: 800;
 }
 .services-format p {
-  color: rgb(146, 145, 171);
+  color: white;
   font-size: 20px;
   line-height: 30px;
-  max-width: 300px; 
+  max-width: 300px;
 }
 .services-readmore {
   display: flex;
@@ -53,11 +53,11 @@
   align-items: center;
   margin-top: 20px;
 }
-@media(max-width:768px){
+@media (max-width: 768px) {
   .services {
     align-items: start;
     gap: 25px;
-    margin: 50px 25px;   
+    margin: 50px 25px;
   }
   .services-title h1 {
     padding: 0;
@@ -65,16 +65,16 @@
   }
   .services-format {
     gap: 20px;
-    padding: 20px;    
+    padding: 20px;
   }
   .services-format h2 {
-    font-size: 20px;    
+    font-size: 20px;
   }
   .services-format p {
     font-size: 18px;
     line-height: 24px;
     width: 100%;
-    max-width: 300px;   
+    max-width: 300px;
   }
   .services-readmore img {
     width: 20px;
@@ -82,10 +82,6 @@
   .services-container {
     display: flex;
     flex-direction: column;
-    margin: 0px auto;
-    /* display: grid;
-    grid-template-columns: 1fr; */
-    /* grid-template-columns: 1fr 1fr; */
-    /* gap: 30px; */
+    margin: 0px auto;    
   }
 }
