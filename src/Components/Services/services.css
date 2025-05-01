@@ -5,6 +5,7 @@
   justify-content: center;
   gap: 40px;
   margin: 80px 170px;
+  background-color: red;
 }
 .services-title h1 {
   padding: 30px;
@@ -12,11 +13,12 @@
   font-weight: 600;
 }
 .services-format {
+  background-color: yellow;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  padding: 60px;
+  /* justify-content: center; */
+  gap: 2px;
+  padding: 10px;
   border-radius: 10px;
   border: 2px solid white;
   transition: 0.4s;
@@ -45,7 +47,7 @@
   color: white;
   font-size: 20px;
   line-height: 30px;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 .services-readmore {
   display: flex;
