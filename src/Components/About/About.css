@@ -54,9 +54,8 @@
 .related-technologies {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 80px;
-  margin: 30px;
 }
 .technology {
   display: flex;
@@ -67,7 +66,7 @@
 .technology p {
   font-size: 14px;
   font-weight: bold;
-  padding-left: 36px;
+  padding-left: 36px;  
 }
 .about-skill:hover {
   transform: scale(1.05);
@@ -88,7 +87,7 @@
     padding: 0;
   }
   .about-sections {
-    flex-direction: column;
+    flex-direction: column;  
   }
   .about-left {
     display: none;
@@ -105,18 +104,11 @@
   }
   .about-skill hr {
     height: 6px;
-  }
-  /* .related-technologies {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12;
-    background-color: red;
-  } */
+  }  
    .related-technologies {
-    max-width: 95%;
+    max-width: 99%;
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap;  
    }
   .related-technologies hr {
     display: none;
@@ -128,13 +120,14 @@
   .technology h3 {
     font-size: 18px;
     font-weight: 500; 
-    text-decoration: underline;   
+    text-decoration: underline; 
+    padding: 5px;  
   }
   .technology p {
     font-size: 16px;
     font-weight: 400;
-    padding-left: 15px;
+    padding-left: 12px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 0px;    
   }
 }

@@ -79,7 +79,7 @@ const About = () => {
         </div>
         <hr />
         <div className="technology">
-          <h3>Framworks</h3>
+          <h3>Frameworks</h3>
           <p>Tailwind CSS</p>
           <p>Bootstrap</p>
         </div>
