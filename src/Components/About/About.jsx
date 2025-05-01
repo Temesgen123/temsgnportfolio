@@ -61,7 +61,7 @@ const About = () => {
           <p>SQL Server</p>
           <p>MySQL</p>
         </div>
-        <hr />        
+        <hr />
         <div className="technology">
           <h3>Version Control</h3>
           <p>Git & GitHub</p>
@@ -74,12 +74,12 @@ const About = () => {
         </div>
         <hr />
         <div className="technology">
-          <h3>Cloud Plateform</h3>
+          <h3>Cloud</h3>
           <p>AWS</p>
         </div>
         <hr />
         <div className="technology">
-          <h3>CSS Framworks</h3>
+          <h3>Framworks</h3>
           <p>Tailwind CSS</p>
           <p>Bootstrap</p>
         </div>
