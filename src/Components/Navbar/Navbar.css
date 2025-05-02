@@ -25,24 +25,19 @@
   gap: 5px;
   cursor: pointer;  
 }
-.nav-menu li p {
-  /* font-size: 24px; */
-  font-size: 20px;
-  /* font-weight: 0; */
+.nav-menu li p { 
+  font-size: 20px; 
   font-weight: 200;
 }
-
 .nav-menu hr {
   height: 2px;
   background-color: #fff;
   border-radius: 10px;
 }
-
 .nav-connect {
   padding: 6px 30px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #2902a9 0.36%, #200174 102.06%);
-  /* font-size: 24px; */
+  background: linear-gradient(267deg, #2902a9 0.36%, #200174 102.06%);  
   font-size: 16px;
   cursor: pointer;
   transition: 0.5s;
