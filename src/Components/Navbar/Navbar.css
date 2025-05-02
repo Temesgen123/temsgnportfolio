@@ -5,7 +5,8 @@
   margin: 50px 80px;
 }
 .logoImage {
-  margin-left: -50px;  
+  margin-left: -80px; 
+  width: 10%; 
 }
 .nav-menu {
   display: flex;
@@ -26,7 +27,7 @@
   /* font-size: 24px; */
   font-size: 18px;
   /* font-weight: 0; */
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .nav-menu hr {

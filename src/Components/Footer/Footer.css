@@ -13,6 +13,7 @@
   /* font-size: 20px; */
   font-size: 16px;
   max-width: 400px;
+  font-weight: 200;
 }
 .footer-top-right {
   display: flex;
@@ -51,6 +52,7 @@
   justify-content: space-between;
   /* font-size: 18px; */
   font-size: 12px;
+  font-weight: 300;
 }
 .footer-bottom-right {
   display: flex;

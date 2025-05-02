@@ -32,7 +32,7 @@
   /* font-size: 24px; */
   font-size: 16px;
   /* font-weight: 500; */
-  font-weight: 300;
+  font-weight: 200;
 }
 .about-skills {
   display: flex;
@@ -50,7 +50,7 @@
   /* font-size: 22px; */
   font-size: 16px;
   /* font-weight: 500; */
-  font-weight: 300;
+  font-weight: 200;
 }
 .about-skill hr {
   outline: none;
@@ -82,7 +82,7 @@
   /* font-size: 14px; */
   font-size: 15px;
   /* font-weight: bold; */
-  font-weight: 300;
+  font-weight: 200;
   padding-left: 16px;
 }
 

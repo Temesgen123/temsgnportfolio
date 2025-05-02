@@ -41,7 +41,7 @@
   /* font-size: 20px; */
   font-size: 16px;  
   /* line-height: 25px; */
-  font-weight: 15px;
+  font-weight: 200;
 }
 .contact-details {
   display: flex;
@@ -71,7 +71,7 @@
   /* font-size: 22px; */
   font-size: 16px;
   /* font-weight: 500; */
-  font-weight: 300;
+  font-weight: 200;
 }
 .contact-right input {
   border: none;
