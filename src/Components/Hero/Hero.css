@@ -12,8 +12,10 @@
 .hero h1 {
   text-align: center;
   width: 70%;
-  font-size: 60px;
-  font-weight: 600;
+  /* font-size: 60px; */
+  font-size: 32px;
+  /* font-weight: 600; */
+  font-weight: 300;
 }
 .hero h1 span {
   background: linear-gradient(270deg, #4c00ff 10%, #fff 100%);
@@ -23,16 +25,20 @@
 .hero p {
   width: 70%;
   text-align: center;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 16px;
   line-height: 40px;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-weight: 300;
 }
 .hero-action {
   display: flex;
   align-items: center;
   gap: 50px;
-  font-size: 20px;
-  font-weight: 500;
+  /* font-size: 20px; */
+  font-size: 16px;
+  /* font-weight: 500; */
+  font-weight: 300;
   margin-bottom: 50px;
 }
 .hero-connect {
