@@ -15,6 +15,11 @@ const Navbar = () => {
     menuRef.current.style.right = '-350px';
   };
 
+  const clickHandler = (selectedMenu) => {
+    setMenu(selectedMenu);
+    closeMenu();
+  }
+
   return (
     <div className="navbar">
       <img src={logo} alt="" className="logoImage" />
@@ -34,31 +39,36 @@ const Navbar = () => {
         />
         <li>
           <AnchorLink className="anchor-link" href="#home">
-            <p onClick={() => setMenu('home')}>Home</p>
+            {/* <p onClick={() => setMenu('home')}>Home</p> */}
+            <p onClick={() => clickHandler('home')}>Home</p>
           </AnchorLink>
           {menu === 'home' ? <hr /> : <></>}
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#about">
-            <p onClick={() => setMenu('about')}>About</p>
+            {/* <p onClick={() => setMenu('about')}>About</p> */}
+            <p onClick={() => clickHandler('about')}>About</p>
           </AnchorLink>
           {menu === 'about' ? <hr /> : <></>}
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#services">
-            <p onClick={() => setMenu('services')}>Services</p>
+            {/* <p onClick={() => setMenu('services')}>Services</p> */}
+            <p onClick={() => clickHandler('services')}>Services</p>
           </AnchorLink>
           {menu === 'services' ? <hr /> : <></>}
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#work">
-            <p onClick={() => setMenu('work')}>Portfolio</p>
+            {/* <p onClick={() => setMenu('work')}>Portfolio</p> */}
+            <p onClick={() => clickHandler('work')}>Portfolio</p>
           </AnchorLink>
           {menu === 'work' ? <hr /> : <></>}
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#contact">
-            <p onClick={() => setMenu('contact')}>Contact</p>
+            {/* <p onClick={() => setMenu('contact')}>Contact</p> */}
+            <p onClick={() => clickHandler('contact')}>Contact</p>
           </AnchorLink>
           {menu === 'contact' ? <hr /> : <></>}
         </li>
