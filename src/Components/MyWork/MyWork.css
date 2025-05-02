@@ -97,7 +97,8 @@
   .mywork-title h1 {
     padding: 0px;
     font-size: 50px;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: 300;
   }
   .mywork-container {
     /* grid-template-columns: 1f 1f 1f;     */

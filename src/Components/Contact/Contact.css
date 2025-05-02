@@ -121,8 +121,8 @@
   .contact-title h1 {
     padding: 0px;
     font-size: 50px;    
-    font-weight: 600;
-    
+    /* font-weight: 600; */
+    font-weight: 300;    
   }
   .contact-section {
     flex-direction: column;
