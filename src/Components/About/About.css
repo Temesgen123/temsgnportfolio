@@ -22,6 +22,9 @@
   flex-direction: column;
   gap: 40px;
 }
+.about-left img {
+  width: 100%;
+}
 .about-para {
   display: flex;
   flex-direction: column;
@@ -38,14 +41,14 @@
 }
 .about-skill {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
   transition: 0.3s;
 }
 .about-skill p {
   min-width: 150px;
   /* font-size: 22px; */
-  font-size: 12px;
+  font-size: 16px;
   /* font-weight: 500; */
   font-weight: 300;
 }
@@ -69,19 +72,20 @@
   gap: 5px;
   transition: 0.5s;
 }
+.technology h3 {
+  font-size: 16px;
+  font-weight: 400;
+  /* text-decoration: underline;
+  padding: 5px; */
+}
 .technology p {
   /* font-size: 14px; */
-  font-size: 10px;
+  font-size: 15px;
   /* font-weight: bold; */
   font-weight: 300;
   padding-left: 16px;
 }
-.technology h3 {
-  font-size: 12px;
-  font-weight: 300;
-  /* text-decoration: underline;
-  padding: 5px; */
-}
+
 .about-skill:hover {
   transform: scale(1.05);
   transition: 0.3s;
