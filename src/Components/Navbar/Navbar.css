@@ -8,8 +8,7 @@
   margin: 50px 80px;  
 }
 .logoImage {
-  /* margin-left: -80px; */
-  /* width: 25%; */
+  margin-left: -80px; 
 }
 .nav-menu {
   display: flex;
