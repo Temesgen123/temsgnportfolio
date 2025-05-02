@@ -94,6 +94,9 @@
   transform: scale(1.25);
   transition: 0.5s;
 }
+.skills-title {
+  font-weight: 400;
+}
 
 @media (max-width: 768px) {
   .about {
