@@ -8,8 +8,10 @@
 }
 .services-title h1 {
   padding: 30px;
-  font-size: 50px;
-  font-weight: 600;
+  /* font-size: 50px; */
+  font-size:32px ;
+  /* font-weight: 600; */
+  font-weight: 300;
 }
 .services-format {
   display: flex;
@@ -34,18 +36,23 @@
   transition: 0.4s;
 }
 .services-format h3 {
-  font-size: 28px;
-  font-weight: 600;
+  /* font-size: 28px; */
+  font-size: 20px;
+  /* font-weight: 600; */
+  font-weight: 400;
 }
 .services-format h2 {
-  font-size: 24px;
-  font-weight: 800;
+  /* font-size: 24px; */
+  font-size: 18px;
+  /* font-weight: 800; */
+  font-weight: 400;
 }
 .services-format p {
   color: white;
-  font-size: 20px;
-  line-height: 30px;
-  /* max-width: 300px; */
+  /* font-size: 20px; */
+  font-size: 16px;
+  /* line-height: 30px; */
+  line-height: 20px;  
 }
 .services-readmore {
   display: flex;

@@ -7,8 +7,10 @@
   margin: 50px 60px;
 }
 .mywork-title h1 {
-  font-size: 50px;
-  font-weight: 600;
+  /* font-size: 50px; */
+  font-size: 32px;
+  /* font-weight: 600; */
+  font-weight: 300;
 }
 .mywork-container {
   display: flex;
@@ -32,12 +34,15 @@
 .project-description {
   padding-left: 0px;
 }
-.projects h2 {
+.projects h3 {
   padding: 10px 0px;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-weight: 300;  
 }
+
 .projects p {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 16px;
   padding-left: 32px;
   margin-top: 2px;
 }
@@ -52,8 +57,10 @@
   border: 2px solid white;
   background: linear-gradient(267deg, #2902a9 0.36%, #200174 102.06%);
   padding: 8px 30px;
-  font-size: 20px;
-  font-weight: 500;
+  /* font-size: 20px; */
+  font-size: 16px;
+  /* font-weight: 500; */
+  font-weight: 300;
   margin-bottom: 50px;
   cursor: pointer;
   transition: 0.6s;
@@ -70,7 +77,8 @@
   text-align: center;
 }
 .project-description a {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 16px;
   text-decoration: none;
   color: white;
 }
