@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 50px 60px;
+  margin: 50px 80px;
 }
 .mywork-title h1 {
   /* font-size: 50px; */
@@ -38,11 +38,13 @@
   padding: 10px 0px;
   /* font-weight: 500; */
   font-weight: 300;  
+  font-size: 18px;
 }
 
 .projects p {
   /* font-size: 20px; */
   font-size: 16px;
+  font-weight: 300;
   padding-left: 32px;
   margin-top: 2px;
 }
@@ -79,6 +81,7 @@
 .project-description a {
   /* font-size: 20px; */
   font-size: 16px;
+  font-weight: 300;
   text-decoration: none;
   color: white;
 }

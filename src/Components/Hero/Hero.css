@@ -3,10 +3,10 @@
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  margin: 50px 60px;
+  margin: 50px 80px;
 }
 .hero img {
-  margin-top: 50px;
+  margin-top: 80px;
   width: 18%;
 }
 .hero h1 {

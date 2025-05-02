@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin: 50px 60px;
+  margin: 50px 80px;
 }
 .services-title h1 {
   padding: 30px;
@@ -39,13 +39,13 @@
   /* font-size: 28px; */
   font-size: 20px;
   /* font-weight: 600; */
-  font-weight: 400;
+  font-weight: 300;
 }
 .services-format h2 {
   /* font-size: 24px; */
   font-size: 18px;
   /* font-weight: 800; */
-  font-weight: 400;
+  font-weight: 300;
 }
 .services-format p {
   color: white;
@@ -53,6 +53,7 @@
   font-size: 16px;
   /* line-height: 30px; */
   line-height: 20px;  
+  font-weight: 300;
 }
 .services-readmore {
   display: flex;
