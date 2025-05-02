@@ -13,9 +13,9 @@
   text-align: center;
   width: 70%;
   /* font-size: 60px; */
-  font-size: 36px;
+  font-size: 50px;
   /* font-weight: 600; */
-  font-weight: 400;
+  font-weight: 300;
 }
 .hero h1 span {
   background: linear-gradient(270deg, #4c00ff 10%, #fff 100%);
@@ -26,20 +26,20 @@
   width: 60%;
   text-align: center;
   /* font-size: 24px; */
-  font-size: 18px;
+  font-size: 24px;
   /* line-height: 40px; */
   line-height: 24px;
   /* font-weight: 500; */
-  font-weight: 400;
+  font-weight: 300;
 }
 .hero-action {
   display: flex;
   align-items: center;
   gap: 50px;
   /* font-size: 20px; */
-  font-size: 16px;
+  font-size: 20px;
   /* font-weight: 500; */
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 50px;
 }
 .hero-connect {
