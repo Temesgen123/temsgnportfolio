@@ -21,7 +21,9 @@ const About = () => {
               and efficient code.
             </p>
           </div>
+          
           <div className="about-skills">
+          <h2 className='skills-title'>Skills</h2>
             <div className="about-skill">
               <p>HTM & CSS</p>
               <hr style={{ width: '65%' }} />
