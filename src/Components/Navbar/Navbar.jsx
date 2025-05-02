@@ -15,49 +15,59 @@ const Navbar = () => {
     menuRef.current.style.right = '-350px';
   };
 
-  return (
-    <div className="navbar">
-      <img src={logo} alt="" className="logoImage" />
-      <img src={openmenuicon} alt="" className="mobile-nav-open" onClick={openMenu} />
-      <ul ref={ menuRef} className="nav-menu">
-        <img src={closemenuicon} alt="" className="mobile-nav-close" onClick={closeMenu} />
-        <li>
-          <AnchorLink className="anchor-link" href="#home">
-            <p onClick={() => setMenu('home')}>Home</p>
-          </AnchorLink>
-          {menu === 'home' ? <hr /> : <></>}
-        </li>
-        <li>
-          <AnchorLink className="anchor-link" offset={50} href="#about">
-            <p onClick={() => setMenu('about')}>About</p>
-          </AnchorLink>
-          {menu === 'about' ? <hr /> : <></>}
-        </li>
-        <li>
-          <AnchorLink className="anchor-link" offset={50} href="#services">
-            <p onClick={() => setMenu('services')}>Services</p>
-          </AnchorLink>
-          {menu === 'services' ? <hr /> : <></>}
-        </li>
-        <li>
-          <AnchorLink className="anchor-link" offset={50} href="#work">
-            <p onClick={() => setMenu('work')}>Portfolio</p>
-          </AnchorLink>
-          {menu === 'work' ? <hr /> : <></>}
-        </li>
-        <li>
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
-            <p onClick={() => setMenu('contact')}>Contact</p>
-          </AnchorLink>
-          {menu === 'contact' ? <hr /> : <></>}
-        </li>
-      </ul>
-      {/* <div className="nav-connect">
+  return (    
+      <div className="navbar">
+        <img src={logo} alt="" className="logoImage" />
+        <img
+          src={openmenuicon}
+          alt=""
+          className="mobile-nav-open"
+          onClick={openMenu}
+        />
+        <ul ref={menuRef} className="nav-menu">
+          <img
+            src={closemenuicon}
+            alt=""
+            className="mobile-nav-close"
+            onClick={closeMenu}
+          />
+          <li>
+            <AnchorLink className="anchor-link" href="#home">
+              <p onClick={() => setMenu('home')}>Home</p>
+            </AnchorLink>
+            {menu === 'home' ? <hr /> : <></>}
+          </li>
+          <li>
+            <AnchorLink className="anchor-link" offset={50} href="#about">
+              <p onClick={() => setMenu('about')}>About</p>
+            </AnchorLink>
+            {menu === 'about' ? <hr /> : <></>}
+          </li>
+          <li>
+            <AnchorLink className="anchor-link" offset={50} href="#services">
+              <p onClick={() => setMenu('services')}>Services</p>
+            </AnchorLink>
+            {menu === 'services' ? <hr /> : <></>}
+          </li>
+          <li>
+            <AnchorLink className="anchor-link" offset={50} href="#work">
+              <p onClick={() => setMenu('work')}>Portfolio</p>
+            </AnchorLink>
+            {menu === 'work' ? <hr /> : <></>}
+          </li>
+          <li>
+            <AnchorLink className="anchor-link" offset={50} href="#contact">
+              <p onClick={() => setMenu('contact')}>Contact</p>
+            </AnchorLink>
+            {menu === 'contact' ? <hr /> : <></>}
+          </li>
+        </ul>
+        {/* <div className="nav-connect">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
           <p onClick={() => setMenu('contact')}>Contact me</p>
         </AnchorLink>
       </div> */}
-    </div>
+      </div>    
   );
 };
 

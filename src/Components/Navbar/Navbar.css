@@ -1,11 +1,14 @@
+.nav-wrapper {
+  position: fixed;
+}
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 80px;
+  margin: 50px 80px;  
 }
 .logoImage {
-  margin-left: -80px;
+  /* margin-left: -80px; */
   /* width: 25%; */
 }
 .nav-menu {
@@ -15,13 +18,13 @@
   gap: 60px;
   font-size: 20px;
   padding-left: 0px;
-  padding-right: 20px;
+  padding-right: 20px;  
 }
 .nav-menu li {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  cursor: pointer;
+  cursor: pointer;  
 }
 .nav-menu li p {
   /* font-size: 24px; */
