@@ -23,9 +23,9 @@ const Hero = () => {
           </AnchorLink>
         </div>        
         <div className="hero-resume">
-          <AnchorLink className='resume-link' href=" https://temesgen123.github.io/resume-temesgen/">
+          <a className='resume-link' href=" https://temesgen123.github.io/resume-temesgen/">
             My Resume
-          </AnchorLink>
+          </a>
         </div>
       </div>
     </div>
