@@ -22,7 +22,12 @@ const Hero = () => {
             Contact Me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My Resume</div>
+        https://temesgen123.github.io/resume-temesgen/
+        <div className="hero-resume">
+          <AnchorLink href=" https://temesgen123.github.io/resume-temesgen/">
+            My Resume
+          </AnchorLink>
+        </div>
       </div>
     </div>
   );
