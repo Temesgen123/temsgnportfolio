@@ -76,8 +76,8 @@
     margin-top: 32px;
     width: 90%;
     font-size: 36px;
-    line-height: 55px;
-    background-color: yellow;
+    line-height: 36px;
+    background-color: rgb(43, 0, 255);
   }
   .hero p {
     width: 90%;
