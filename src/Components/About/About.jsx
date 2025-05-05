@@ -21,15 +21,14 @@ const About = () => {
               and efficient code.
             </p>
           </div>
-          
           <div className="about-skills">
-          <h2 className='skills-title'>Skills</h2>
+            <h2 className="skills-title">Skills</h2>
             <div className="about-skill">
-              <p>HTM & CSS</p>
+              <p>HTML & CSS</p>
               <hr style={{ width: '65%' }} />
             </div>
             <div className="about-skill">
-              <p>React JS</p>
+              <p>React</p>
               <hr style={{ width: '50%' }} />
             </div>
             <div className="about-skill">

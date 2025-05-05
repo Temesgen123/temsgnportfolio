@@ -1,3 +1,4 @@
+
 import project1_img from './aaautomartportfolio.png';
 import project2_img from './suhillportfolio.png';
 const mywork_data = [
