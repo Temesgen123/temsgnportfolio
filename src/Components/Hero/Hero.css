@@ -66,10 +66,10 @@
 }
 @media (max-width: 768px) {
   .hero {
-    margin: 50px 5px;
+    margin: 55px 5px;
   }
   .hero img {
-    margin-top: 36px;
+    margin-top: 40px;
     width: 25%;
   }
   .hero h1 {
