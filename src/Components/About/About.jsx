@@ -15,10 +15,10 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I'm a passionate developer with experience in building dynamic and
-              responsive web applications using React.js and Node.js. I enjoy
-              solving complex problems and turning ideas into reality with clean
-              and efficient code.
+              I'm a passionate Full-Stack Developer with experience in building
+              dynamic and responsive web applications using React.js and
+              Node.js. I enjoy solving complex problems and turning ideas into
+              reality with clean and efficient code. 
             </p>
           </div>
           <div className="about-skills">
