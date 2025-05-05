@@ -5,13 +5,14 @@
   justify-content: center;
   /* gap: 50px; */
   gap: 35px;
-  margin:  80px 80px;
+  margin: 80px 80px;
 }
 .mywork-title h1 {
   /* font-size: 50px; */
   font-size: 32px;
   /* font-weight: 600; */
   font-weight: 300;
+  margin-top: 20px;
 }
 .mywork-container {
   display: flex;
@@ -21,13 +22,13 @@
 }
 .mywork-container img {
   max-width: 50%;
-  height: auto; 
-  object-fit: contain; 
+  height: auto;
+  object-fit: contain;
   /* padding: 5px; */
   background-color: transparent;
   border-radius: 12px;
 }
-.projects {  
+.projects {
   display: flex;
   gap: 36px;
   padding: 16px 0px;
@@ -38,7 +39,7 @@
 .projects h3 {
   padding: 10px 0px;
   /* font-weight: 500; */
-  font-weight: 300;  
+  font-weight: 300;
   font-size: 18px;
 }
 
@@ -59,8 +60,8 @@
   border-radius: 50px;
   border: 2px solid white;
   background: linear-gradient(267deg, #2902a9 0.36%, #200174 102.06%);
-  padding: 3px 36px; 
-  font-size: 16px;  
+  padding: 3px 36px;
+  font-size: 16px;
   font-weight: 200;
   margin-bottom: 50px;
   cursor: pointer;
@@ -73,7 +74,7 @@
 .project-description div {
   padding: 6px 12px;
   background-color: rgb(3, 2, 100);
-  border-radius: 12px;  
+  border-radius: 12px;
   text-align: center;
   width: 50%;
   margin: 20px auto;
@@ -81,10 +82,9 @@
 }
 .project-description div:hover {
   background-color: #3203cd;
-  transform: scale(1.10);
-
+  transform: scale(1.1);
 }
-.project-description a {  
+.project-description a {
   font-size: 16px;
   font-weight: 200;
   text-decoration: none;
@@ -105,10 +105,10 @@
   }
   .mywork-title h1 {
     padding: 0px;
-    font-size: 50px;   
+    font-size: 50px;
     font-weight: 300;
   }
-  .mywork-container {   
+  .mywork-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
