@@ -77,14 +77,12 @@
     width: 90%;
     font-size: 36px;
     line-height: 36px;
-    background-color: rgb(43, 0, 255);
   }
   .hero p {
     width: 90%;
     font-size: 18px;
     line-height: 24px;
     margin: 0px 0px;
-    background-color: red;
   }
   .hero-action {
     gap: 16px;
