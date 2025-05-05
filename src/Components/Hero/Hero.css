@@ -75,8 +75,7 @@
     margin-top: 6px;
     width: 90%;
     font-size: 50px;
-    /* line-height: 32px; */
-    background-color: red;
+    line-height: 32px;
   }
   .hero p {
     width: 90%;
