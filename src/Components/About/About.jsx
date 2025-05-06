@@ -18,7 +18,9 @@ const About = () => {
               I'm a passionate Full-Stack Developer with experience in building
               dynamic and responsive web applications using React.js and
               Node.js. I enjoy solving complex problems and turning ideas into
-              reality with clean and efficient code.
+              reality with clean and efficient code. With a strong foundation in
+              front-end and back-end technologies, I thrive on delivering
+              seamless digital experiences.
             </p>
           </div>
           <div className="about-skills">
