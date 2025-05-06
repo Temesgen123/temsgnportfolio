@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 40px; */
   gap: 25px;
   margin: 90px 80px;
 }
@@ -93,17 +92,19 @@
 
 @media (max-width: 768px) {
   .about {
-    gap: 12px;
+    /* gap: 12px; */
     margin: 64px 25px;
     align-items: start;
   }
   .about-title h1 {
     font-size: 50px;
     padding: 0;
+    padding-bottom: 5px;
     margin-top: 16px;
   }
   .about-sections {
     flex-direction: column;
+    padding-bottom: 5px;
   }
   .about-left {
     display: none;
@@ -111,6 +112,7 @@
   .about-para {
     font-size: 18px;
     line-height: 24px;
+    padding-bottom: 5px;
   }
   .about-skills {
     gap: 2px;
@@ -128,6 +130,7 @@
     max-width: 99%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 5px;
   }
   .related-technologies hr {
     display: none;
