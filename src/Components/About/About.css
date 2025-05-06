@@ -92,7 +92,7 @@
 
 @media (max-width: 768px) {
   .about {
-    /* gap: 12px; */
+    gap: 2px;
     margin: 64px 25px;
     align-items: start;
   }
