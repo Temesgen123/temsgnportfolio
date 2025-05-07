@@ -1,11 +1,12 @@
 
 import project1_img from './aaautomartportfolio.png';
 import project2_img from './suhillportfolio.png';
+import project12_img from './aaautoIcon.png'
 const mywork_data = [
   {
     w_no: '1',
     w_name: 'AUTO DEALERSHIP WEBSITE',
-    w_image: project1_img,
+    w_image: project12_img,
     w_dsc:
       'Designed and developed a modern responsive auto dealership website to streamline the process of showcasing available vehicles and assisting customers in finding their ideal car. Integrated a system for scheduling test drives and consultations.',
     w_url: 'https://temesgen123.github.io/aaauto',
