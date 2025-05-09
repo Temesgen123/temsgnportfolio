@@ -1,7 +1,7 @@
 
-import project1_img from './aaautomartportfolio.png';
+
 import project2_img from './suhillportfolio.png';
-import project12_img from './aaautoIcon.png'
+import project12_img from './aaautopbanner.png'
 const mywork_data = [
   {
     w_no: '1',
