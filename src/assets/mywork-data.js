@@ -1,7 +1,5 @@
-
-
-import project2_img from './suhillportfolio.png';
-import project12_img from './aaautopbanner.png'
+import project2_img from './suhillpbanner.png';
+import project12_img from './aaautopbanner.png';
 const mywork_data = [
   {
     w_no: '1',
