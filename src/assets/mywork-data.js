@@ -15,7 +15,7 @@ const mywork_data = [
     w_image: project2_img,
     w_dsc:
       'Developed a fully resposive e-commerce web application enabling users to browse products, add items to their cart and complete purchases securely. Integrated payment gateway, user authentication, and dynamic product filtering. Created admin panel for adding new product, updating product price and users account information.',
-    w_url: 'https://suhill-ecommerce-app-dfof.vercel.app',
+    w_url: 'https://suhill-ecommerce-app-j599.vercel.app',
   },
 ];
 
